@@ -1,13 +1,22 @@
 <body>
-    <canvas id="Main-Canvas" width="600" height="600">
-
+    <canvas id="Main-Canvas" width="484" height="484">
+<!--Sqw root = 22 * 22-->
     </canvas>
     <style>
 #Main-Canvas {
-background-color: gray;
+    border: 1px solid black;
 }
     </style>
     <script>
+var canvas = document.getElementById('Main-Canvas');
+var ctx = canvas.getContext('2d');
 
+var dataPoints = [
+22,22,22,22
+];
+var tabledraw = [
+
+];
+ctx.strokeRect(dataPoints);
     </script>
 </body>
